@@ -69,7 +69,7 @@ public class Laptop {
                         }
                         break;
                     default:
-                        // Handle other criteria if needed
+                        
                         break;
                 }
             }
@@ -105,7 +105,7 @@ public class Laptop {
         criteria.put("Storage", storage);
 
         System.out.print("Введите цвет: ");
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         String color = scanner.nextLine();
         criteria.put("Color", color);
 
